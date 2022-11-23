@@ -24,7 +24,7 @@ int main()
     printf("input the number you want to convert into farenheight");
     scanf("%s", moby.temp);
     moby.final_temp = farenheight(moby.temp);
-    printf("your final temp is %f f");
+    printf("your final temp is %f f", moby.final_temp);
 
    } else if (moby.type == "farenheight") 
    {
